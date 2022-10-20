@@ -12,12 +12,66 @@
 <body>
     <div class="content">
         <div class="background-image">
-            <img src="background-image/Nature.jpg" alt="bgimage" width="400px" height="auto">
             <div class="logo">
-                <img src="background-image/odin-lined.jpg" alt="logo">
+                <img src="background-image/odin-lined.png" alt="logo" class="odin">
+                <h1>Odin</h1>
             </div>
+            <p class="author">photo by Halie west on unsplash</p>
         </div>
+        <div class="right">
+            <div class="dummy-text">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepst dreams.
+                </p>
+                <p>Sign up <em>now</em> to get start.</p>
+                <p class="last">You <em>know</em> what you want to.</p>
+            </div>
 
+            <form action="#">
+                <div class="form">
+                    <p class="form-p">Let's do this!</p>
+                    <div class="fullname">
+
+                        <div class="firstname">
+                            <label for="firstname">FIRST NAME</label>
+                            <input type="text" name="name" id="firstname" minlength="3" maxlength="8" required>
+                        </div>
+                        <div class="input">
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" name="name" id="lastname" minlength="3" maxlength="8" required>
+                        </div>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="email">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="emial" id="email" required>
+                        </div>
+                        <div class="phonenumber">
+                            <label for="phonenumber">PHONE NUMBER</label>
+                            <input type="text" name="phonenumber" id="phonenumber" minlength="10" maxlength="10"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="user-password">
+                        <div class="password">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="passsword" required>
+                        </div>
+                        <div class="confirm-passsword">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="passsword" name="password" id="confirm-passsword" required>
+                        </div>
+                    </div>
+
+                </div>
+                <button type="submit">Create account</button>
+                <div class="log-in">
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 
