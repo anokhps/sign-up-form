@@ -137,7 +137,17 @@ button {
     padding-top: 15px;
     padding-left: 25px;
 }
-a{
+
+a {
     text-decoration: none;
     color: blue;
+}
+
+.bottom {
+
+    background-color: rgb(243, 244, 246);
+}
+
+.bottom p {
+    padding-bottom: 19px;
 }
